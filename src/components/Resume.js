@@ -1,7 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Box } from "@material-ui/core";
-
 import Navbar from "./Navbar";
 
 const useStyles = makeStyles((theme) => ({
@@ -56,12 +55,12 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       width: "44%",
       margin: "1rem",
-      "&:nth-of-type(2nd)": {
+      "&:nth-of-type(2n)": {
         float: "right",
         margin: "1rem",
         borderColor: "tan",
       },
-      "&:nth-of-type(2nd):before": {
+      "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
         borderColor: "transparent transparent tomato tomato",
@@ -85,7 +84,7 @@ const useStyles = makeStyles((theme) => ({
       margin: "0 auto",
       "&:nth-of-type(2n)": {
         float: "none",
-        marging: "0 auto",
+        margin: "0 auto",
       },
       "&:nth-of-type(2n):before": {
         display: "none",
@@ -111,7 +110,7 @@ const Resume = () => {
       <Navbar />
       <Box component="header" className={classes.mainContainer}>
         <Typography variant="h4" align="center" className={classes.heading}>
-          Working experience
+          working experience
         </Typography>
         <Box component="div" className={classes.timeLine}>
           <Typography
@@ -123,18 +122,150 @@ const Resume = () => {
           <Box component="div" className={classes.timeLineItem}>
             <Typography
               variant="h5"
-              aligned="center"
+              aligh="center"
               className={classes.subHeading}
             >
-              Web design
+              web design
             </Typography>
-            <Typography variant="body1" aligned="center">
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "tomato" }}
+            >
               company name where worked
             </Typography>
-            <Typography variant="subtitle1" aligned="center">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "tan" }}
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+              officiis? Veritatis dolore eum eos sequi iste iure possimus ad
+              quos.
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2014
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              html & css
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "tomato" }}
+            >
+              company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "tan" }}
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+              officiis? Veritatis dolore eum eos sequi iste iure possimus ad
+              quos.
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2015
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              javascript full stack
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "tomato" }}
+            >
+              company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "tan" }}
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+              officiis? Veritatis dolore eum eos sequi iste iure possimus ad
+              quos.
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2017
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              react | redux
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "tomato" }}
+            >
+              company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "tan" }}
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+              officiis? Veritatis dolore eum eos sequi iste iure possimus ad
+              quos.
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2018-2020
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              mern stack
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "tomato" }}
+            >
+              company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "tan" }}
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+              officiis? Veritatis dolore eum eos sequi iste iure possimus ad
+              quos.
             </Typography>
           </Box>
         </Box>
