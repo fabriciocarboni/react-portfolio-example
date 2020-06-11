@@ -5,5 +5,5 @@ body {
   -moz-background: cover;
   -o-background: cover;
   background: cover;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
